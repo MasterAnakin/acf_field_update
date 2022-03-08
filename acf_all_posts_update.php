@@ -1,8 +1,8 @@
 <?php
 
 $args = array(
-  'post_type' => 'post', /* product post type */
-  'posts_per_page' => -1 /* all products */
+  'post_type' => 'post', 
+  'posts_per_page' => -1 
 );
 
 $all_posts = new WP_Query( $args );
